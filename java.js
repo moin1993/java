@@ -27,8 +27,8 @@ for (let cardbtn of cardbtns) {
 
     const recentCallHistory = document.getElementById("recent-call-history");
     const newCart = document.createElement("div");
-    newCart.innerHTML = `<div class="flex justify-between items-center p-10">
-            <div class="border-2 bg-blue-500">
+    newCart.innerHTML = `<div class="flex justify-between items-center p-10 w-[400px] h-[30px] mb-3 ml-3 bg-gray-50 rounded-2xl">
+            <div class="">
               <h1>${title}</h1>
               <p>${number}</p>
             </div>
